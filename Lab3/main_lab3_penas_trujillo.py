@@ -13,10 +13,9 @@ while True:
     Closes the program
     """
 
-
-"""
-Prints whether input for each alphabetical antic is true or false
-"""
+    """
+    Prints whether input for each alphabetical antic is true or false
+    """
 
     print(f"'{user_input}' is:")
     print(f"- Palindrome: {is_palindrome(user_input)}")
