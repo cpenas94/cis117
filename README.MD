@@ -1,4 +1,4 @@
-# CIS-254 Introduction to Object Oriented Programming
+# CIS-117 Python Programming
 This contains lab projects that I have completed during this course.
 
 ## General Information:
