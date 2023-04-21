@@ -9,5 +9,5 @@ This contains lab projects that I have completed during this course.
 * WordCount - This project receives text as parameter and returns the number of words, unique word count, number of sentences and the frequencies of each word.
 
 ## Used Technologies
-* Java
-* Eclipse
+* Python
+* PyCharm
