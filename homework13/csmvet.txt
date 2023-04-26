@@ -1,0 +1,507 @@
+
+ 
+ 
+
+ 
+ 
+
+ 
+	blueboxlighttext 
+		padding 0px
+	
+	blueboxlight 
+		margin 0
+	
+	
+ 
+    
+	 
+		
+ 
+ functionwdsliwlwlwlpushgtmstart
+new dategettimeeventgtmjsvar fdgetelementsbytagnames0
+jdcreateelementsdlldatalayerlljasynctruejsrc
+httpswwwgoogletagmanagercomgtmjsididlfparentnodeinsertbeforejf
+windowdocumentscriptdatalayergtmw2sbvcm 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+    
+ 
+	  cdata
+	functionfbevnts
+	ifffbqreturnnffbqfunctionncallmethod
+	ncallmethodapplynargumentsnqueuepusharguments
+	ifffbqffbqnnpushnnloaded0nversion20
+	nqueuetbcreateelementetasync0
+	tsrcvsbgetelementsbytagnamee0
+	sparentnodeinsertbeforetswindowdocumentscript
+	httpsconnectfacebooknetenusfbeventsjs
+	fbqinit 787523325095723 
+	fbqtrack pageview
+	  
+	 
+	 
+	 
+ 
+
+	 
+ 
+     veterans services
+ at college of san mateo  overview 
+
+	 
+	
+		 
+
+ ultimate fadein slideshow v15  dynamic drive httpwwwdynamicdrivecom
+ this notice must stay intact for legal use
+ visit httpwwwdynamicdrivecom for this script and 100s more
+
+ 
+var fadeimagesnew array
+set image paths extend or contract array as needed
+fadeimages0imagesslideshowveteransslide2jpg  
+
+
+var fadebgcolorwhite
+ 
+no need to edit beyond here
+ 
+var fadearraynew array array to cache fadeshow instances
+var fadeclearnew array array to cache corresponding clearinterval pointers
+ 
+var domdocumentgetelementbyid modern dom browsers
+var iebrowserdocumentall
+ 
+function fadeshowtheimages fadewidth fadeheight borderwidth delay pause displayorder
+thispausecheckpause
+thismouseovercheck0
+thisdelaydelay
+thisdegree10 initial opacity degree 10
+thiscurimageindex0
+thisnextimageindex1
+fadearrayfadearraylengththis
+thisslideshowidfadearraylength1
+thiscanvasbasecanvasthisslideshowid
+thiscurcanvasthiscanvasbase0
+if typeof displayorderundefined
+theimagessortfunction return 05  mathrandom thanks to mike aka mwinter 
+thistheimagestheimages
+thisimageborderparseintborderwidth
+thispostimagesnew array preload images
+for p0ptheimageslengthp
+thispostimagespnew image
+thispostimagespsrctheimagesp0
+
+ 
+var fadewidthfadewidththisimageborder2
+var fadeheightfadeheightthisimageborder2
+ 
+if iebrowserdomdom if ie5 or modern browsers ie firefox
+documentwritediv idmasterthisslideshowid stylepositionrelativewidthfadewidthpxheightfadeheightpxoverflowhiddendiv idthiscanvasbase0 stylepositionabsolutewidthfadewidthpxheightfadeheightpxtop0left0filterprogiddximagetransformmicrosoftalphaopacity10opacity01mozopacity01khtmlopacity01backgroundcolorfadebgcolordivdiv idthiscanvasbase1 stylepositionabsolutewidthfadewidthpxheightfadeheightpxtop0left0filterprogiddximagetransformmicrosoftalphaopacity10opacity01mozopacity01khtmlopacity01backgroundcolorfadebgcolordivdiv
+else
+documentwritedivimg namedefaultslidethisslideshowid srcthispostimages0src mcesrchttpcollegeofsanmateoeduveteransincludesthispostimages0srcdiv
+ 
+if iebrowserdomdom if ie5 or modern browsers such as firefox
+thisstartit
+else
+thiscurimageindex
+setintervalfadearraythisslideshowidrotateimage thisdelay
+
+
+
+function fadepicobj
+if objdegree100
+objdegree10
+if objtempobjfiltersobjtempobjfilters0
+if typeof objtempobjfilters0opacitynumber if ie6
+objtempobjfilters0opacityobjdegree
+else else if ie55
+objtempobjstylefilteralphaopacityobjdegree
+
+else if objtempobjstylemozopacity
+objtempobjstylemozopacityobjdegree101
+else if objtempobjstylekhtmlopacity
+objtempobjstylekhtmlopacityobjdegree100
+else if objtempobjstyleopacityobjtempobjfilters
+objtempobjstyleopacityobjdegree101
+
+else
+clearintervalfadeclearobjslideshowid
+objnextcanvasobjcurcanvasobjcanvasbase0 objcanvasbase0  objcanvasbase1
+objtempobjiebrowser iebrowserobjnextcanvas  documentgetelementbyidobjnextcanvas
+objpopulateslideobjtempobj objnextimageindex
+objnextimageindexobjnextimageindexobjpostimageslength1 objnextimageindex1  0
+settimeoutfadearrayobjslideshowidrotateimage objdelay
+
+
+ 
+fadeshowprototypepopulateslidefunctionpicobj picindex
+var slidehtml
+if thistheimagespicindex1 if associated link exists for image
+slidehtmla hrefthistheimagespicindex1 mcehrefhttpcollegeofsanmateoeduveteransincludesthistheimagespicindex1 targetthistheimagespicindex2
+slidehtmlimg srcthispostimagespicindexsrc mcesrchttpcollegeofsanmateoeduveteransincludesthispostimagespicindexsrc borderthisimageborderpx
+if thistheimagespicindex1 if associated link exists for image
+slidehtmla
+picobjinnerhtmlslidehtml
+
+ 
+ 
+fadeshowprototyperotateimagefunction
+if thispausecheck1 if pause onmouseover enabled cache object
+var cacheobjthis
+if thismouseovercheck1
+settimeoutfunctioncacheobjrotateimage 100
+else if iebrowserdomdom
+thisresetit
+var crossobjthistempobjiebrowser iebrowserthiscurcanvas  documentgetelementbyidthiscurcanvas
+crossobjstylezindex
+fadeclearthisslideshowidsetintervalfadepicfadearraythisslideshowid50
+thiscurcanvasthiscurcanvasthiscanvasbase0 thiscanvasbase1  thiscanvasbase0
+
+else
+var ns4imgobjdocumentimagesdefaultslidethisslideshowid
+ns4imgobjsrcthispostimagesthiscurimageindexsrc
+
+thiscurimageindexthiscurimageindexthispostimageslength1 thiscurimageindex1  0
+
+ 
+fadeshowprototyperesetitfunction
+thisdegree10
+var crossobjiebrowser iebrowserthiscurcanvas  documentgetelementbyidthiscurcanvas
+if crossobjfilterscrossobjfilters0
+if typeof crossobjfilters0opacitynumber if ie6
+crossobjfilters0opacitythisdegree
+else else if ie55
+crossobjstylefilteralphaopacitythisdegree
+
+else if crossobjstylemozopacity
+crossobjstylemozopacitythisdegree101
+else if crossobjstylekhtmlopacity
+crossobjstylekhtmlopacitythisdegree100
+else if crossobjstyleopacitycrossobjfilters
+crossobjstyleopacitythisdegree101
+
+ 
+ 
+fadeshowprototypestartitfunction
+var crossobjiebrowser iebrowserthiscurcanvas  documentgetelementbyidthiscurcanvas
+thispopulateslidecrossobj thiscurimageindex
+if thispausecheck1 if slideshow should pause onmouseover
+var cacheobjthis
+var crossobjcontaineriebrowser iebrowsermasterthisslideshowid  documentgetelementbyidmasterthisslideshowid
+crossobjcontaineronmouseoverfunctioncacheobjmouseovercheck1
+crossobjcontaineronmouseoutfunctioncacheobjmouseovercheck0
+
+thisrotateimage
+
+  
+ your browser does not support javascript 
+
+		 
+	
+ 
+
+ 
+
+ 
+ functiond s id 
+  var js fjs  dgetelementsbytagnames0
+  if dgetelementbyidid return
+  js  dcreateelements jsid  id
+  jssrc  httpsconnectfacebooknetenussdkjsxfbml1versionv210appid214520325277785
+  fjsparentnodeinsertbeforejs fjs
+document script facebookjssdk 
+
+   skip directly to
+     main content 
+     navigation 
+     search 
+     az index 
+	 ask the bulldog 
+	 find people 	
+     top story 
+     breadcrumbs 
+     footer 
+
+     
+
+	
+ 
+ 
+ 
+  windowdatalayer  windowdatalayer  
+  function gtagdatalayerpusharguments
+  gtagjs new date
+
+  gtagconfig g2l52wjqpye
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ college of san mateo 
+
+ 
+ search       
+  cdata
+documentreadyfunction  
+
+	tabledefault tbody trnthchildevenaddclassalt 
+	
+  
+ 
+ 
+ az index 
+  
+ find people 
+ 
+ 
+ 
+ 
+ 
+	 
+
+
+   
+  
+   
+   
+   
+
+ csm home   
+ veterans services
+   
+
+ 
+overview
+   
+   
+
+   
+
+     
+	       
+
+		 
+	  overview 
+ getting started 
+ veterans shopping sheet 
+ meet the staff 
+ student veterans assisting veterans 
+ veterans club 
+ event calendar 
+ resources 
+ community resources 
+ donate 
+ forms 
+ contact us 
+	 
+
+ 
+
+  
+     
+    
+
+       
+	           
+
+ 
+new fadeshowimagesarrayname slideshowwidth slideshowheight borderwidth delay pause 0no 1yes optionalrandomorder
+new fadeshowfadeimages 533 171 0 5000 1 r
+   
+
+ 
+ 
+ 
+ 
+
+     
+
+    
+        
+
+    
+
+ 
+ flex day no classes april 20 2023 
+ 
+ final exams may 2026 2023 
+ 
+ memorial day holiday may 29 2023 
+
+ request information 
+     
+	
+	 
+
+     
+   
+
+     
+	
+	  
+	 veterans services
+
+	  
+	  
+	  
+	 
+	  attention  due to a complete software changeover by the va we will not be able to submit any certifications to the va from february 24th 2023 to march 6th 2023 
+
+ what to do  submit your spring 2023 enrollment certification request asap so it has a better chance of being processed before the february 24th 2023 software closure
+
+you are able to submit your certification request via your  mysmccd student portal   student success link  veteran forms
+
+ 
+
+ if you have any questions please contact  csmmiltcertsmccdedu 	 
+	 
+
+ 
+ overview 
+ 
+
+ 
+ csm is dedicated to making sure that all veterans reservists active duty members and their family members receive the welldeserved respect and benefits they have earned 
+ veterans resource  opportunity center vroc 
+we can assist you in starting continuing or resuming your education we have experience and knowledge of the post911 gib mgibsr voc rehab calvet fee waiver va work study gi bill payment rates and post911 bah rates we can help you navigate through the va system as well as connect you to your local county veteran services office 
+ mission 
+to provide all student veterans and their families a college experience with inspiration and purpose 
+ vision 
+to develop remarkable student veterans who will be inspired to build on their education through leadership roles social entrepreneurship and life long education 
+ core values 
+ 
+ services and amenities 
+when you are in vroc you can expect to be in your comfort zone among other veterans service members and their families you will be able to learn more about our local community resources job opportunities oncampus resources scholarships transfer college information and even internship opportunities we also offer a lounge computer access free printing coffee and light snacks stop by central hall building 16 room 150 to find out more today 
+ 
+ 
+ 
+ contact us 
+ veterans resource  opportunity center vroc central hall building 16  room 150 650 5746675 csmvetssmccdedu to better serve our students the best way to contact us is though email please leave us a detailed message including your name student id contact information and details regarding your inquiry hours 
+ 
+ 
+ 
+ day 
+ time 
+ modality 
+ 
+ 
+ 
+ 
+ monday 
+ 800 am  430 pm 
+ in person 
+ 
+ 
+ tuesday 
+ 800 am  430 pm 
+ in person 
+ 
+ 
+ wednesday 
+ 800 am  430 pm 
+ in person 
+ 
+ 
+ thursday 
+ 800 am  430 pm 
+ in person 
+ 
+ 
+ friday 
+ 800 am  100 pm 
+ in person 
+ 
+ 
+ 
+ 
+   
+
+ 
+ 
+ 
+     
+ 
+
+ 
+     
+ 
+
+               
+
+ 
+ 
+ 
+
+ apply  enroll 
+  
+ contact csm 
+  
+ events 
+  
+ maps 
+  
+ nondiscrimination 
+  
+ privacy 
+  
+ schedule  catalog 
+  
+ sexual misconduct title ix 
+  
+ web accessibility 
+  
+ websmart 
+  
+ website feedback 
+ 
+ 1700 w hillsdale boulevard san mateo ca 94402 
+ 
+  cdata
+uacct  ua24125341
+urchintrackeronclickwindowopenwindowopenthishrefresizableyeswidth400height225undefinedreturn false hrefhttpscollegeofsanmateoeduwebmaster targetblank
+  
+ 
+  function  
+    var tagjs  documentcreateelementscript
+    var s  documentgetelementsbytagnamescript0
+    tagjsasync  true
+    tagjssrc  sbtstaticcomtagjssitet4tmu86referrer  encodeuricomponentdocumentlocationhref  
+    sparentnodeinsertbeforetagjs s
+  
+ 
+ 
+   
+ 
+
+
+ 
+
+ 
+     
+
+   
+ 
+ 
