@@ -7,6 +7,7 @@ This contains lab projects that I have completed during this course.
 * Lab 3 is a program that test alphabetical antics (Word Play)
 * Lab 4 reads a CSV file containing information on countries and splits the countries by region generating one file per region
 * WordCount - This project receives text as parameter and returns the number of words, unique word count, number of sentences and the frequencies of each word.
+* HTML_Parser - A custom HTML parser that extracts text from HTML documents, removes punctuation, and counts word frequency.
 
 ## Used Technologies
 * Python
