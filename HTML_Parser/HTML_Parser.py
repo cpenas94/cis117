@@ -1,4 +1,4 @@
-# Homework 13 Assignment
+# Homework 14 Assignment
 # Henry Penas
 # 04-22-2023
 
@@ -9,8 +9,11 @@ from urllib.request import urlopen
 
 class MyHTMLParser(HTMLParser):
     """
-    This code all together retrieves data from the website listed below (CSM Website) and parses the HTML
-    content to extract the clean text then finds the number of frequency for each word that occurs more than twice.
+    This parser extends the built-in HTMLParser class and overrides its handle_data method to extract text data
+    from HTML tags. It then removes all punctuation from the text and counts the frequency of each word.
+    The frequency method returns a list of words that occur at least n times, and the dump_data method writes
+    the cleaned text to a file.
+
 
     """
     def __init__(self):
